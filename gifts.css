@@ -1,0 +1,80 @@
+body {
+
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/628/166/original/party-glossy-holiday-background-with-balloons-and-confetti-and-white-empty-card-free-vector.jpg) ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+ul {
+
+    display: flex;
+    justify-content: left;
+    
+}
+li{
+    border: 2px;
+    font-size: 30px ;
+    margin-right: 5px;
+    /* padding: 8px ; */
+    
+}
+li :hover{
+
+    background-color: brown;
+}
+.noDefault {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; /* Remove underline */
+    color: inherit;
+    /* margin: 5px; */
+}
+ul {
+    background-color: rgb(248, 148, 65);
+    list-style: none;
+    /* padding: 8px; */
+    margin: 0;
+    padding: 3px;
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;   
+}
+.Cards {
+
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 0;
+    border: 2px solid black;
+    
+    /* border-radius: ; */
+}
+.types {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22;
+
+}
+.hov {
+    display: none;
+}
+
+.c:hover .hov {
+    display: block;
+
+}
+.head {
+
+    background-color: coral;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+
